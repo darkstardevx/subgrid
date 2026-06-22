@@ -14,6 +14,12 @@
 
 Subgrid is the central nervous system for your infrastructure. It maps `/opt/subgrid` directly into a version-controlled pipeline, allowing for real-time integrity checks, memory dump analysis, and deployment synchronization.
 
+This project serves as my primary vehicle for deep-diving into the Rust ecosystem. As this is my first large-scale Rust implementation, I am iterating on the architecture as I learn the language's safety, concurrency, and performance idioms.
+
+**I am actively seeking collaboration.** Whether you are a Rust veteran or a fellow enthusiast, I welcome advice, pull requests, and architectural critique. If you see a way to optimize the core, harden the memory hooks, or improve the Leptos-based HUD, please reach out or open an issue.
+
+**The grid is never truly offline—and it is better built together.**
+
 ### 🛠 Tech Stack
 
 - **Engine:** Rust (Axum, Leptos)
@@ -69,6 +75,4 @@ The repository manages the local filesystem state located at `/opt/subgrid`.
 ## 🛡 License
 
 Subgrid is licensed under the **GNU General Public License v3.0**.
-
-
 See the [LICENSE](LICENSE) file for the complete legal text.
