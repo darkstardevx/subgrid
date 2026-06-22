@@ -69,4 +69,6 @@ The repository manages the local filesystem state located at `/opt/subgrid`.
 ## 🛡 License
 
 Subgrid is licensed under the **GNU General Public License v3.0**.
-See the [LICENSE](LICENSE) file for the complete legal text.*
+
+
+See the [LICENSE](LICENSE) file for the complete legal text.
