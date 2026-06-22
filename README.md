@@ -6,8 +6,6 @@
 
 > [!IMPORTANT] **Subgrid** is a high-performance systems monitoring and deployment orchestration engine designed for low-latency kernel memory auditing and production environment management.
 
-
-
 **Quick View of the Subgrid System**
 
 ![Subgrid Interface Showcase](/assets/subgrid_site.png)
@@ -70,6 +68,5 @@ The repository manages the local filesystem state located at `/opt/subgrid`.
 
 ## 🛡 License
 
-*Proprietary Systems Architecture — Internal Use Only.*
-
-*“The grid is never truly offline.”*
+Subgrid is licensed under the **GNU General Public License v3.0**.
+See the [LICENSE](LICENSE) file for the complete legal text.*
