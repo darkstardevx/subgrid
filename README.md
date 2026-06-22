@@ -10,7 +10,7 @@
 
 **Quick View of the Subgrid System**
 
-![Subgrid Interface Showcase](/home/raven/Projects/subgrid/subgrid_site.png)
+![Subgrid Interface Showcase](/assets/subgrid_site.png)
 
 ## 🔍 Overview
 
