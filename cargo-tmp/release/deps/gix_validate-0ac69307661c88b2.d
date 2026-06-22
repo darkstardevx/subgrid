@@ -1,0 +1,11 @@
+/opt/subgrid/cargo-tmp/release/deps/gix_validate-0ac69307661c88b2.d: /home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/lib.rs /home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/reference.rs /home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/tag.rs /home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/submodule.rs /home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/path.rs
+
+/opt/subgrid/cargo-tmp/release/deps/libgix_validate-0ac69307661c88b2.rlib: /home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/lib.rs /home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/reference.rs /home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/tag.rs /home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/submodule.rs /home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/path.rs
+
+/opt/subgrid/cargo-tmp/release/deps/libgix_validate-0ac69307661c88b2.rmeta: /home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/lib.rs /home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/reference.rs /home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/tag.rs /home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/submodule.rs /home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/path.rs
+
+/home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/lib.rs:
+/home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/reference.rs:
+/home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/tag.rs:
+/home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/submodule.rs:
+/home/darkstar/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/gix-validate-0.10.1/src/path.rs:

@@ -1,0 +1,14 @@
+[build]
+# Points Trunk to your frontend entry file
+target = "src-frontend/index.html"
+# Places the compiled WASM and HTML exactly where Tauri expects it
+dist = "dist"
+
+[serve]
+addresses = ["127.0.0.1"]
+port = 1420
+open = false
+
+[[proxy]]
+backend = "https://aur.archlinux.org/rpc/"
+rewrite = "/api-aur"

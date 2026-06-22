@@ -1,0 +1,39 @@
+[package]
+name = "subgrid"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+axum = "0.7"
+tokio = { version = "1.0", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tower-http = { version = "0.6", features = ["fs", "cors"] }
+leptos = { version = "0.7", features = ["ssr"] }
+leptos_axum = "0.7"
+reqwest = { version = "0.13.4", features = ["json"] }
+
+[package.metadata.leptos]
+# The name of your project, used for generating JS/WASM file names
+name = "subgrid"
+
+# The path to your output directory
+site-root = "target/site"
+
+# The directory inside site-root where your static assets (JS/WASM) are served
+site-pkg-dir = "pkg"
+
+# The name of the WASM file to be generated
+output-name = "subgrid"
+
+# The URL prefix for your static assets (e.g., "/pkg/")
+site-addr = "127.0.0.1:3000"
+
+# The path to your compiled CSS file (if you have one)
+style-file = "style/main.css"
+
+# The folder where your static assets (images, icons, etc.) are kept
+assets-dir = "public"
+
+# The reload port for hot-reloading during development
+reload-port = 3001

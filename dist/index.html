@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subgrid Control Panel</title>
+    <script src="/__tauri_api.js"></script>    
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+<script type="module">
+import init, * as bindings from '/subgrid-frontend-2d7a65464ba029f1.js';
+const wasm = await init({ module_or_path: '/subgrid-frontend-2d7a65464ba029f1_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+<style>
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+</style>  
+<link rel="modulepreload" href="/subgrid-frontend-2d7a65464ba029f1.js" crossorigin="anonymous" integrity="sha384-Os6g1zwiiPXz7vcckeRHB1xtF0zLMLFn3Dq1bqKUrl1GjNPttOEFOzoT7HUXdb2i"><link rel="preload" href="/subgrid-frontend-2d7a65464ba029f1_bg.wasm" crossorigin="anonymous" integrity="sha384-NYKdNuaJitdGtbRtgtTRz/a2PsivBHxaRRB0B++bXrIXfECwI1HOlqIFuqs13bnR" as="fetch" type="application/wasm"></head>
+  <body class="bg-[#f9f7f4]">
+  </body>
+</html>
