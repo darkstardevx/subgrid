@@ -6,6 +6,12 @@
 
 > [!IMPORTANT] **Subgrid** is a high-performance systems monitoring and deployment orchestration engine designed for low-latency kernel memory auditing and production environment management.
 
+
+
+**Quick View of the Subgrid System**
+
+![Subgrid Interface Showcase](/home/raven/Projects/subgrid/subgrid_site.png)
+
 ## 🔍 Overview
 
 Subgrid is the central nervous system for your infrastructure. It maps `/opt/subgrid` directly into a version-controlled pipeline, allowing for real-time integrity checks, memory dump analysis, and deployment synchronization.
@@ -27,8 +33,6 @@ To ensure the entire operational scope is tracked, initialize the repository wit
 ### Tracking Protocol
 
 The repository manages the local filesystem state located at `/opt/subgrid`.
-
-
 
 ## 🚀 Features
 
